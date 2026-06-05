@@ -4,5 +4,5 @@ module or_gate (
     output logic y
 );
 
-    assign y = a + b;
+    assign y = a | b;
 endmodule
